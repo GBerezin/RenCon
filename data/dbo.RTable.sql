@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[RTable] (
+    [RGrade] TEXT NOT NULL,
+    [esc2]   REAL NULL DEFAULT 0,
+    [esc0]   REAL NULL DEFAULT 0,
+    [es0]    REAL NULL DEFAULT 0,
+    [es2]    REAL NULL DEFAULT 0,
+    [Rsc]    REAL NULL DEFAULT 0,
+    [Rs]     REAL NULL DEFAULT 0,
+    [Es]     REAL NULL DEFAULT 0,
+    CONSTRAINT [PK_RTable] PRIMARY KEY CLUSTERED ([RGrade] ASC)
+);
+
