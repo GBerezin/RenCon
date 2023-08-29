@@ -95,6 +95,9 @@ namespace RenCon
             if (Lim_st == "First" && m.T == "concrete")
             {
                 Rc[i] = m.Rc * gb1 * gb3;
+                e1[i] = 0.0;
+                e0[i] = 0.0;
+                e2[i] = 0.0;
                 S1[i] = 0.0;
                 Rt[i] = 0.0;
             }
